@@ -134,7 +134,7 @@ header.masthead {
     color: white;
     border: 7px solid #e9ecef;
     border-radius: 100%;
-    background-color: #fed136;
+    background-color:#186A3B;
   }
   
   .timeline>li .timeline-image h4 {
@@ -286,7 +286,7 @@ header.masthead {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(254, 209, 54, 0.9);
+    background: rgba(24, 106, 59, 0.5);
   align-items: center;
     justify-content: center;
     opacity: 0;
