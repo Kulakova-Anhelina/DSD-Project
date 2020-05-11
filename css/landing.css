@@ -1,17 +1,17 @@
 /*START masthead*/
-header.masthead {
-    padding-top: 10.5rem;
-    padding-bottom: 6rem;
+header.mastheadlanding {
+    padding-top: 15rem;
+    padding-bottom: 10rem;
     text-align: center;
     color: #fff;
-    background-image: url("../assets/img/lending_page_pics/young-690958_1280.jpg");
+    background-image: url("../assets/img/landing_page_pics/girl-691712_1920.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
   }
   
-  header.masthead .masthead-heading {
+  header.mastheadlanding .masthead-heading {
     font-size: 3rem;
     font-weight: 700;
     line-height: 3.25rem;

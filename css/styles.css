@@ -24,7 +24,8 @@
   --gray-dark: #343a40;
   --primary: #fed136;
   --secondary: #6c757d;
-  --success: #28a745;
+  /* --success: #28a745; */
+  --success: #186A3B;
   --info: #17a2b8;
   --warning: #fed136;
   --danger: #dc3545;
@@ -171,13 +172,13 @@ sup {
 }
 
 a {
-  color: #fed136;
+  color: #186A3B;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #e6b301;
+  color:  #186A3B;
   text-decoration: underline;
 }
 
