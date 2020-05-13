@@ -2739,7 +2739,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+  box-shadow:  0 0 0 0.2rem rgba(20, 90, 50 , 0.5);
 }
 
 .btn-secondary {
@@ -3030,24 +3030,24 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #fed136;
-  border-color: #fed136;
+  color:  #186A3B;
+  border-color:  #186A3B;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color:  #186A3B;
+  border-color: #186A3B;
 }
 
 .btn-outline-primary:focus,
 .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
+  box-shadow:  0 0 0 0.2rem rgba(20, 90, 50 , 0.5);
 }
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-  color: #fed136;
+  color:  #186A3B;
   background-color: transparent;
 }
 
@@ -3055,14 +3055,14 @@ fieldset:disabled a.btn {
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show>.btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color:  #186A3B;
+  border-color:  #186A3B;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 54, 0.5);
+  box-shadow:  0 0 0 0.2rem rgba(20, 90, 50 , 0.5);
 }
 
 .btn-outline-secondary {
@@ -3992,8 +3992,8 @@ input[type=button].btn-block {
 
 .custom-control-input:checked~.custom-control-label::before {
   color: #fff;
-  border-color: #fed136;
-  background-color: #fed136;
+  border-color:#fffae8 ;
+  background-color:#fffae8 ;
 }
 
 .custom-control-input:focus~.custom-control-label::before {
@@ -4001,7 +4001,7 @@ input[type=button].btn-block {
 }
 
 .custom-control-input:focus:not(:checked)~.custom-control-label::before {
-  border-color: #ffeeb5;
+  border-color:#fffae8;
 }
 
 .custom-control-input:not(:disabled):active~.custom-control-label::before {
