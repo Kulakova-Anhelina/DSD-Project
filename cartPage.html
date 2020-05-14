@@ -2,33 +2,32 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <title>Shopping cart</title>
-  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-  <!-- Font Awesome icons (free version)-->
-  <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
-  <!-- Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
-    type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-  <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="css/main.css" rel="stylesheet" />
-  <!-- CART links -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Shopping cart</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/main.css" rel="stylesheet" />
+    <!-- CART links -->
 </head>
 
 <body id="page-top">
-
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">
-      <img src="./assets/img/navbar_logo_icons/logo.png" width="100" height="30" class="d-inline-block align-top">
+   
+    <!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"> 
+      <img src="./assets/img/navbar_logo_icons/logo.png" width="100" height="30" class="d-inline-block align-top"> 
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,7 +39,7 @@
           <a class="nav-link" href="menPage.html">Men</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="collections.html">New in</a>
+          <a class="nav-link" href="#">New in</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Inspiration</a>
@@ -49,167 +48,143 @@
           <a class="nav-link" href="sustainPage.html">About sustainability</a>
         </li>
       </ul>
-
+  
       <!-- START search  -->
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> 
       </form>
-      <!--END search   -->
-
-      <li class="nav-item">
-        <a href="#" class="text-dark"><i class="fas fa-user m-2"></i></a>
-      </li>
-      <li class="nav-item">
-        <a href="favourites.html" class="text-dark"><i class="fas fa-heart m-2 "></i></a>
-      </li>
-      <li class="nav-item">
-        <a href="cartPage.html" class="text-dark"><i class="fas fa-shopping-cart m-2 text-primary"></i></a>
-      </li>
+   <!--END search   -->
+  
+   <li class="nav-item">
+    <a href="#" class="text-dark"><i class="fas fa-user m-2" ></i></a>
+  </li>
+  <li class="nav-item">
+    <a href="favourites.html" class="text-dark"><i class="fas fa-heart m-2 " ></i></a>
+  </li>
+  <li class="nav-item">
+    <a href="cartPage.html" class="text-dark"><i class="fas fa-shopping-cart m-2 text-success" ></i></a>
+  </li>
     </div>
   </nav>
   <!-- navbar end  -->
 
-  <!-- START Cart -->
+<!-- START Cart -->
 
-  <div class="album py-5">
-    <div class="container">
-
-      <h1 class="mb-4">Shopping cart</h1>
-      <div class="row ">
-        <div class="col-lg-12 col-md-10 col-sm-1 col-md-offset-1 bg-light">
-          <div class="table-responsive">
-            <table class="table table-hover">
+<div class="album py-5">
+  <div class="container">
+    
+<h1 class="mb-4">Shopping cart</h1>
+  <div class="row ">
+      <div class="col-lg-12 col-md-10 col-sm-1 col-md-offset-1 bg-light">
+          <table class="table table-hover">
               <thead>
-                <tr>
-                  <th>Product</th>
-                  <th>Quantity</th>
-                  <th class="text-center">Price</th>
-                  <th class="text-center">Discount</th>
-                  <th class="text-center">Total</th>
-                  <th> </th>
-                </tr>
+                  <tr>
+                      <th>Product</th>
+                      <th>Quantity</th>
+                      <th class="text-center">Price</th>
+                      <th class="text-center">Discount</th>
+                      <th class="text-center">Total</th>
+                      <th> </th>
+                  </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td class="col-sm-8 col-md-6">
-                    <div class="media">
-                      <a class="thumbnail pull-left" href="#"> <img class="mr-3"
-                          src="./assets/img/favourites_pics/girl-1307420_1920.jpg" style="width: 80px; height: 110px;">
-                      </a>
-                      <div class="media-body">
-                        <h4 class="media-heading">Item name</h4>
-                        <h5 class="media-heading"> by Brand name</h5>
-                        <p class="mb-1">Color: beige</p>
-                        <p>Size: S</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="col-sm-1 col-md-1" style="text-align: center">
-                    <input type="email" class="form-control" id="exampleInputEmail1" value="1">
-                  </td>
-                  <td class="col-sm-1 col-md-1 text-center"><strong>€84</strong></td>
-                  <td class="col-sm-1 col-md-1 text-center"><strong>-€14</strong></td>
-                  <td class="col-sm-1 col-md-1 text-center"><strong>€70</strong></td>
-                  <td class="col-sm-1 col-md-1 text-center">
-                    <button type="button" class="btn btn-danger">
-                      <i class="fas fa-trash-alt"></i>
-                    </button></td>
+                  <tr>
+                      <td class="col-sm-8 col-md-6">
+                      <div class="media">
+                          <a class="thumbnail pull-left" href="#"> <img class="mr-3" src="./assets/img/favourites_pics/girl-1307420_1920.jpg" style="width: 80px; height: 110px;"> </a>
+                          <div class="media-body">
+                              <h4 class="media-heading">Item name</h4>
+                              <h5 class="media-heading"> by Brand name</h5>
+                              <p class="mb-1">Color: beige</p>
+                              <p>Size: S</p>
+                          </div>
+                      </div></td>
+                      <td class="col-sm-1 col-md-1" style="text-align: center">
+                      <input type="email" class="form-control" id="exampleInputEmail1" value="1">
+                      </td>
+                      <td class="col-sm-1 col-md-1 text-center"><strong>€84</strong></td>
+                      <td class="col-sm-1 col-md-1 text-center"><strong>-€14</strong></td>
+                      <td class="col-sm-1 col-md-1 text-center"><strong>€70</strong></td>
+                      <td class="col-sm-1 col-md-1 text-center">
+                      <button type="button" class="btn btn-danger">
+                        <i class="fas fa-trash-alt"></i>
+                      </button></td>
+                  </tr>
+                  <tr>
+                      <td class="col-md-6">
+                      <div class="media">
+                          <a class="thumbnail pull-left" href="#"> <img class="mr-4" src="./assets/img/favourites_pics/fashion-5138284_960_720.jpg" style="width: 72px; height: 90px;"> </a>
+                          <div class="media-body">
+                              <h4 class="media-heading">Item name</h4>
+                              <h5 class="media-heading"> by Brand name</h5>
+                              <p class="mb-1">Color: pink</p>
+                              <p>Size: S</p>
+                          </div>
+                      </div></td>
+                      <td class="col-md-1" style="text-align: center">
+                      <input type="email" class="form-control" id="exampleInputEmail1" value="1">
+                      </td>
+                      <td class="col-md-1 text-center"><strong>€25</strong></td>
+                      <td class="col-md-1 text-center"><strong>-€10</strong></td>
+                      <td class="col-md-1 text-center"><strong>€15</strong></td>
+                      <td class="col-md-1 text-center">
+                      <button type="button" class="btn btn-danger">
+                        <i class="fas fa-trash-alt"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                      <td>   </td>
+                      <td>   </td>
+                      <td>   </td>
+                      <td>   </td>
+                      <td><h6>Total before discount</h6></td>
+                      <td class="text-right"><h5><strong>€109</strong></h5></td>
+                  </tr>
+                  <tr>
+                    <td>   </td>
+                    <td>   </td>
+                    <td>   </td>
+                    <td>   </td>
+                    <td><h6>Total discount</h6></td>
+                    <td class="text-right"><h5>-€24</h5></td>
                 </tr>
-                <tr>
-                  <td class="col-md-6">
-                    <div class="media">
-                      <a class="thumbnail pull-left" href="#"> <img class="mr-4"
-                          src="./assets/img/favourites_pics/fashion-5138284_960_720.jpg"
-                          style="width: 72px; height: 90px;"> </a>
-                      <div class="media-body">
-                        <h4 class="media-heading">Item name</h4>
-                        <h5 class="media-heading"> by Brand name</h5>
-                        <p class="mb-1">Color: pink</p>
-                        <p>Size: S</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="col-md-1" style="text-align: center">
-                    <input type="email" class="form-control" id="exampleInputEmail1" value="1">
-                  </td>
-                  <td class="col-md-1 text-center"><strong>€25</strong></td>
-                  <td class="col-md-1 text-center"><strong>-€10</strong></td>
-                  <td class="col-md-1 text-center"><strong>€15</strong></td>
-                  <td class="col-md-1 text-center">
-                    <button type="button" class="btn btn-danger">
-                      <i class="fas fa-trash-alt"></i>
-                    </button>
-                  </td>
-                </tr>
-                <tr>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>
-                    <h6>Total before discount</h6>
-                  </td>
-                  <td class="text-right">
-                    <h5><strong>€109</strong></h5>
-                  </td>
-                </tr>
-                <tr>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>
-                    <h6>Total discount</h6>
-                  </td>
-                  <td class="text-right">
-                    <h5>-€24</h5>
-                  </td>
-                </tr>
-                <tr>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>
-                    <h6>Delivery cost</h6>
-                  </td>
-                  <td class="text-right">
-                    <h5><strong>Free</strong></h5>
-                  </td>
-                </tr>
-                <tr>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>
-                    <h6>Total cost</h6>
-                  </td>
-                  <td class="text-right">
-                    <h5><strong>€85</strong></h5>
-                  </td>
-                </tr>
-                <tr>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>   </td>
-                  <td>
-                    <a href="#" class="btn btn-primary" style="text-align: center; white-space: nowrap;">Continue
-                      shopping</a> </td>
-                  <td>
-                    <a href="#" class="btn btn-primary">Checkout</a> </td>
-                </tr>
+                  <tr>
+                      <td>   </td>
+                      <td>   </td>
+                      <td>   </td>
+                      <td>   </td>
+                      <td><h6>Delivery cost</h6></td>
+                      <td class="text-right"><h5><strong>Free</strong></h5></td>
+                  </tr>
+                  <tr>
+                      <td>   </td>
+                      <td>   </td>
+                      <td>   </td>
+                      <td>   </td>
+                      <td><h6>Total cost</h6></td>
+                      <td class="text-right"><h5><strong>€85</strong></h5></td>
+                  </tr>
+                  <tr>
+                      <td>   </td>
+                      <td>   </td>
+                      <td>   </td>
+                      <td>   </td>
+                      <td>
+                        <a href="#" class="btn btn-primary" style="text-align: center; white-space: nowrap;">Continue shopping</a> </td>
+                      <td>
+                        <a href="#" class="btn btn-primary">Checkout</a> </td>
+                  </tr>
               </tbody>
-            </table>
-          </div>
-        </div>
+          </table>
       </div>
+  </div>
+</div>
 
-      <!--START Footer-->
+    <!--START Footer-->
 
-      <footer class="footer-area footer--light">
+    <footer class="footer-area footer--light">
         <div class="footer-big">
           <!-- start .container -->
           <div class="container">
@@ -238,16 +213,16 @@
                     <h4 class="footer-widget-title">Popular Categories</h4>
                     <ul>
                       <li>
-                        <a href="menPage.html">Men</a>
+                        <a href="#">Men</a>
                       </li>
                       <li>
-                        <a href="womanPage.html">Women</a>
+                        <a href="#">Women</a>
                       </li>
                       <li>
-                        <a href="sustainPage.html">Sustainability</a>
+                        <a href="#">Sustainability</a>
                       </li>
                       <li>
-                        <a href="sustainPage.html">Our brands</a>
+                        <a href="#">Our brands</a>
                       </li>
                       <li>
                         <a href="#">Our auditing process for brands</a>
@@ -259,23 +234,23 @@
                 <!-- Ends: .footer-widget -->
               </div>
               <!-- end /.col-md-3 -->
-
+      
               <div class="col-md-3 col-sm-4">
                 <div class="footer-widget">
                   <div class="footer-menu">
                     <h4 class="footer-widget-title">Our Company</h4>
                     <ul>
                       <li>
-                        <a href="index.html">About Us</a>
+                        <a href="#">About Us</a>
                       </li>
                       <li>
-                        <a href="index.html">Testimonials</a>
+                        <a href="#">Testimonials</a>
                       </li>
                       <li>
-                        <a href="index.html">Contact Us</a>
+                        <a href="#">Contact Us</a>
                       </li>
                       <li>
-                        <a href="sustainPage.html">Blog</a>
+                        <a href="#">Blog</a>
                       </li>
                     </ul>
                   </div>
@@ -284,7 +259,7 @@
                 <!-- Ends: .footer-widget -->
               </div>
               <!-- end /.col-lg-3 -->
-
+      
               <div class="col-md-3 col-sm-4">
                 <div class="footer-widget">
                   <div class="footer-menu no-padding">
@@ -312,14 +287,14 @@
                 <!-- Ends: .footer-widget -->
               </div>
               <!-- Ends: .col-lg-3 -->
-
+      
             </div>
             <!-- end /.row -->
           </div>
           <!-- end /.container -->
         </div>
         <!-- end /.footer-big -->
-
+      
         <div class="mini-footer">
           <div class="container">
             <div class="row">
@@ -332,12 +307,12 @@
           </div>
         </div>
       </footer>
+        
+    <!--END Footer-->
 
-      <!--END Footer-->
-
-      <!-- Bootstrap core JS-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
